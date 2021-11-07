@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.global-container {
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.global-content {
+    display: grid;
+    justify-items: center;
+
+}
+
+.text-container {
+    text-align: center;
+    width: 45%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.text-intro {
+    font-size: 15px;
+    margin: 1rem;
+}
+
+.cards-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 1rem;
+    min-width: 90%;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-1 {
+    text-align: justify;
+    display: flexbox;
+    align-self: center;
+    max-width: 30vw;
+    min-height: 35vh;
+    margin: 1rem;
+    border-radius: 4px;
+    border-top: 5px groove hsl(0, 78%, 62%);
+    box-shadow: 4px 4px 4px 2px rgba(134, 134, 134, 0.5);
+}
+
+.card-1:hover{
+    cursor: pointer;
+    background-color:hsla(0, 78%, 62%, 0.26) ;
+}
+
+.card-text-container {
+    margin: 1rem;
+    padding: 1rem;
+    display: grid;
+}
+
+.text-card {
+    padding: 1rem;
+}
+
+
+.icon {
+    margin-left: 22vw;
+    margin-top: 4vh;
+    display: flex;
+    align-self: flex-end;
+}
+
+
+.card-2 {
+    text-align: justify;
+    display: flexbox;
+    align-self: flex-end;
+    max-width: 30vw;
+    min-height: 35vh;
+    margin: 1rem;
+    border-radius: 4px;
+    border-top: 5px groove hsl(180, 62%, 55%);
+    box-shadow: 4px 4px 4px 2px rgba(134, 134, 134, 0.5);
+}
+
+.card-2:hover{
+    background-color: hsla(180, 62%, 55%, 0.26) ;
+    cursor: pointer;
+}
+
+.card-3 {
+    text-align: justify;
+    display: flexbox;
+    align-self: center;
+    width: 30vw;
+    min-height: 35vh;
+    margin: 1rem;
+    border-radius: 4px;
+    border-top: 5px groove hsl(34, 97%, 64%);
+    box-shadow: 4px 4px 4px 2px rgba(134, 134, 134, 0.5);
+}
+
+.card-3:hover{
+    background-color: hsla(34, 97%, 64%, 0.26) ;
+    cursor: pointer;
+}
+
+.card-4 {
+  
+    max-width: 30vw;
+    min-height: 35vh;
+    margin: 1rem;
+    border-radius: 4px;
+    border-top: 5px groove hsl(212, 86%, 64%);
+    box-shadow: 4px 4px 4px 2px rgba(134, 134, 134, 0.5);
+}
+
+.card-4:hover{
+    background-color: hsla(212, 86%, 64%, 0.26) ;
+    cursor: pointer;
+}
+
+@media screen and (min-widith: 800px) {
+    .cards-section-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
